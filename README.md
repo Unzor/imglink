@@ -5,7 +5,9 @@ A format that lets you open a URL from a randomly generated image. Pretty useles
 imglink is currently in early developement, and images often aren't read correctly as the image is pixelated and works best on images with smoother text.
 
 # Usage
-First, install all dependencies:
+First, clone this project in Replit using Git.
+Then, run `bash set_up_enviroment.sh`.
+Then, install all dependencies by running:
 ```
 npm install
 ```
