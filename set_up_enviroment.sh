@@ -1,1 +1,1 @@
-cat repl.nix > replit.nix
+cat repl.nix > ../replit.nix
