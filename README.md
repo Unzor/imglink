@@ -6,7 +6,7 @@ imglink is currently in early developement, and images often aren't read correct
 
 # Usage
 First, create a Nix REPL and clone this project in Replit using Git (command: `git clone https://github.com/Unzor/imglink -b replit`).
-Then, run `bash set_up_enviroment.sh`.
+Then, run `cd imglink && bash set_up_enviroment.sh`.
 Then, install all dependencies by running:
 ```
 npm install
