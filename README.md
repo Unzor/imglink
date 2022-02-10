@@ -6,6 +6,7 @@ imglink is currently in early developement, and images often aren't read correct
 
 # Usage
 These are instructions for setting up on desktop. For Replit setup, visit [here.](https://github.com/Unzor/imglink/tree/replit)
+
 First, install all dependencies:
 ```
 npm install
