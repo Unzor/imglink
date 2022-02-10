@@ -25,5 +25,6 @@ Read image (example):
 node read out.png
 ```
 
-Result (clone this branch in Replit to run)
+Result (clone this branch in Replit to run):
+
 ![Replit example image](examples/replit-example.png)
