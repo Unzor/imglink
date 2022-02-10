@@ -5,6 +5,7 @@ A format that lets you open a URL from a randomly generated image. Pretty useles
 imglink is currently in early developement, and images often aren't read correctly as the image is pixelated and works best on images with smoother text.
 
 # Usage
+These are instructions for setting up on desktop. For Replit setup, visit [here.](https://github.com/Unzor/imglink/tree/replit)
 First, install all dependencies:
 ```
 npm install
