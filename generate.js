@@ -54,7 +54,7 @@ c = c.slice(0, -1)
 }
       var increase = 10;
         ctx.fillStyle = rgbToHex([hexToRgb(c)[0] + increase, hexToRgb(c)[1] + increase, hexToRgb(c)[2] + increase]);
-        ctx.font = "20px 'Source Sans Pro'";
+        ctx.font = "20px 'Trebuchet'";
         ctx.fillText(code, 50, 100);
 
       //write to 'out.png'
