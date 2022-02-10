@@ -7,6 +7,5 @@ Tesseract.recognize(
   image,
   'eng'
 ).then(({ data: { text } }) => {
-  console.log("Visiting: https://cutlify.seven7four4.repl.co/" + text)
   open("https://cutlify.seven7four4.repl.co/" + text);
 })
