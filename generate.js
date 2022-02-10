@@ -43,14 +43,8 @@ var c = randomColor()
     var fnt = PImage.registerFont('trebuc.ttf','Trebuchet');
     fnt.load(async () => {
       var code = await shorten_url(process.argv[2]);
-      console.log(code);
         var img = PImage.make(200,200);
         var ctx = img.getContext('2d');
-      console.log(c, c.length)
-      if (c.length > 7) {
-c = c.slice(0, -1)
-}
-            console.log(c, c.length)
 
       // fill with red
 ctx.fillStyle = c;
@@ -58,8 +52,8 @@ ctx.fillRect(0,0,200,200);
            if (c.length > 7) {
 c = c.slice(0, -1)
 }
-                  console.log(c, c.length)
-        ctx.fillStyle = rgbToHex([hexToRgb(c)[0] + 50, hexToRgb(c)[1] + 50, hexToRgb(c)[2] + 50]);
+      var increase = 8;
+        ctx.fillStyle = rgbToHex([hexToRgb(c)[0] + increase, hexToRgb(c)[1] + increase, hexToRgb(c)[2] + increase]);
         ctx.font = "17px 'Source Sans Pro'";
         ctx.fillText(code, 50, 100);
 
