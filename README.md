@@ -23,6 +23,6 @@ Read image (example):
 node read out.png
 ```
 
-Result (running in Replit, clone "replit" branch inside of Replit to set up):
+Result (running in Replit, clone ["replit" branch](https://github.com/Unzor/imglink/tree/replit) inside of Replit to set up):
 
 ![Replit example image](examples/replit-example.png)
