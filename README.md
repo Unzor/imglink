@@ -20,5 +20,8 @@ Image generated:
 
 Read image (example):
 ```
-node view out.png
+node read out.png
 ```
+
+Result (running in Replit, clone "replit" branch inside of Replit to set up)
+![Replit example image](examples/replit-example.png)
